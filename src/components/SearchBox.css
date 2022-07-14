@@ -1,0 +1,29 @@
+.search-box {
+  margin-top: 1.5rem;
+  margin-bottom: 1.8rem;
+  border: 2px solid #0ccac4;
+  width: 30%;
+  background-color: rgb(164, 216, 248);
+  border-radius: 8px;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #075a57;
+  padding: .4rem 0;
+}
+
+.search-box:focus {
+  border: 5px solid #0ccac4;
+}
+
+
+.search-box input[type='search'] {
+  font-size: 1.2rem;
+  transition: box-shadow 0.5s ease-in-out;
+  background-color: transparent;
+  width: 97%;
+  border: none;
+  outline: none;
+}
+
